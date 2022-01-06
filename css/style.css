@@ -1,0 +1,150 @@
+/* css for all*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.gap-both-side{
+    width: 90%;
+    margin: 25px auto;
+    /*border: 1px solid red;*/
+}
+
+/*css for 1st section start*/
+h1{
+    font-size: 50px;   
+}
+
+.mission-color{
+    color: #a8658b;
+}
+.in-a-line{
+    display: flex;
+}
+.left-portion{
+    width: 50%;
+}
+.left-portionh1{
+    border-left: 5px solid;
+    border-image: linear-gradient(#a8658b,#551fbb);
+    border-image-slice: 1;
+
+}
+.left-portion p{
+    padding: 30px 0px;
+}
+
+.right-portion{
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.right-portion img{
+    width: 80%;  
+    height: 80%;
+    margin: 10px auto;
+}
+.link-buttone{
+    text-decoration: none;
+    background-image:  linear-gradient(#a8658b,#551fbb);
+    padding: 10px 35px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+/*css for 1st section end */
+
+/*css for 2nd section start*/
+#second-portion-h2{
+    margin: 0 auto;
+    text-align: center;
+}
+.second-portion-color{
+    color: #551fbb;
+}
+/*css for 2nd section end*/
+/* css for 2a start*/
+.two-a{
+    background-color: #F2F8FA;
+    margin-left: 3%;
+}
+.two-ab{
+    background-color: #dababf;
+}
+.two-abc{
+    background-color: #9fe2ae;
+}
+.two-a-space{
+    width: 30%;
+    margin-right: 3%;
+    border-radius: 20px;
+    }
+.two-a-img{
+    width: 50%;
+    margin: 5px auto;
+}
+.two-a-h3{
+    margin: 30px 0px;
+}
+
+/*css for 2a end*/
+/*css for 3rd section start*/
+.left-portion img{
+    width: 80%;  
+    height: 80%;
+    margin: 10px auto;
+}
+.right-portion p{
+    padding: 30px 0px;
+}
+/*css for 3rd section end*/
+
+/*css for 4th section start*/
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*css for 4th section end*/
+
+/*Extra section start*/
+.send-email input[type="email"]{
+    width: 30%;
+    padding: 1%;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(#a8658b,#551fbb);
+    color: white;
+}
+.send-email input[type="submit"]{
+    width:12% ;
+    padding: 1%;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(#a8658b,#551fbb);
+    color: white;
+    font-weight: 400;
+    }
+    ::placeholder {
+        color:white;
+        opacity:0.2; /* Firefox */
+      }
+/*Extra section end*/
+
+/*css for 6th section start*/
+.last-section{
+    background-image: url(../images/pictures/footer.png);
+    padding:20px 0px;
+
+}
+.footer-color{
+    color: white;
+}
+/*css for 6th section end*/
